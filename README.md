@@ -6,20 +6,20 @@ Learn to build a simple console RPG game while learning the basics of C++!
 
 # Roadmap
 #### Module-1 
-In this module we introduce you to the most basic building blocks of C++. Data Types. 
+    In this module we introduce you to the most basic building blocks of C++. Data Types. 
 #### Module-2
-Learn the basics of handling variables, what they are and how to use them efficiently. 
+    Learn the basics of handling variables, what they are and how to use them efficiently. 
 #### Module-3
-Levelling up a bit, visiting scopes quickly, explaining the basic structure of every C++ console app, naming conventions, best practices, and more. 
+    Levelling up a bit, visiting scopes quickly, explaining the basic structure of every C++ console app, naming conventions, best practices, and more. 
 #### Module-4 
-Introduces arrays, nested arrays, strings, cin, cout.
+    Introduces arrays, nested arrays, strings, cin, cout.
 #### Module-5
-Introduces loops, nested loops and conditionals, and more tasty stuff.
+    Introduces loops, nested loops and conditionals, and more tasty stuff.
 #### Module-6 
-Welcome to Functionland. Introduces all you need to know about functions. 
+    Welcome to Functionland. Introduces all you need to know about functions. 
 #### Module-6.5 (optional)
-Recursion, call-stack, and optimisation tips.
+    Recursion, call-stack, and optimisation tips.
 #### Module-7
-When to point, when not to. Pointers and all around.
+    When to point, when not to. Pointers and all around.
 #### Module-8 
-Structs, complex structs, static, public, private, and more.
+    Structs, complex structs, static, public, private, and more.
