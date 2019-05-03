@@ -171,5 +171,10 @@ delete[] array; // use array delete to deallocate array. This is a special delet
 ```
 This way is different from the static way however, because as we've learned, variables created with `new` return pointers and not actual types normally. The downside here is that things like `sizeof()` won't be available for dynamically allocated arrays because originally they're pointers and thus they don't know the exact length of the array pointed to. It's your responsibility of knowing how long an array is if you're going this way. 
 
+## Extra
+The size of a pointer depends on the processor architecture. If you're running a 32bit processor (and assuming your OS is the same) then all pointers in your code are going to be 32bit in size, regardless of the actual data size being pointed to.
+ 
 ## Note
 Using `new` doesn't guarantee that it will be successful. The host machine could be running low on memory, and therefore there will be no available memory for your program, causing the `new` operator to fail.
+
+
