@@ -37,3 +37,28 @@ Modifiers are keywords used before Primitive types to extend their functionality
 4. Long
 
 You can also chain them! So you can say "long long int" *-(2^63) to (2^63)-1* to represent integers longer by billions!  
+## Type Casting
+Type casting is the process of converting (casting) a variable from a type to another type. It has a few casting operators which are used to cast variables using different methods from overriding constants type all the way to dynamic casting. But for the sake of simplicity I'll only explain the most basic form. 
+```cpp
+...
+
+int integer = 65; //The ascii character for 65 is the letter 'A'
+char charFromInteger = (int) integer; //The () act as the type casting operator in this case, and it awaits the type you want to convert to between the brackets.
+float floatFromChar = (float) charFromInteger + 0.55;
+double doubleFromFloat = (double) floatFromChar + 0.00005; 
+int integerFromDouble = (int) doubleFromFloat; //This will round or floor the double to fit it into an integer. 
+long long int integerFromInteger = integerFromDouble;
+double doubleFromLongInteger = (double) integerFromInteger + 0.0005;
+
+...
+```
+If we place a cout for each of those variables the output will be respectively the following: 
+```cpp
+65
+A 
+65.55
+65.5501
+65   
+65   
+65.0005  
+``` 
