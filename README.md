@@ -27,4 +27,5 @@ Learn to build a simple console RPG game while learning the basics of C++!
     Structs, complex structs, static, public, private, and more.
  
  
- 
+# Contribute
+Have something in mind that should be added? Found a typo? Explanation not clear? Just send me a message over discord in Valarium or start a pull request! 
