@@ -117,9 +117,6 @@ We've seen the first two ways in things like `int array[5];` and locally scoped 
 ...
 
 char name[25]; // let's hope their name is less than 25 chars!
-Record record[500]; // let's hope there are less than 500 records!
-Monster monster[40]; // 40 monsters maximum
-Polygon rendering[30000]; // this 3d rendering better not have more than 30,000 polygons!
 
 ...
 ```
