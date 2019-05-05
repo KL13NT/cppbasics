@@ -3,7 +3,8 @@
 
 
 ## Pointers are royal servants
-Imagine this scene with me. A king has just written a message and wants that "original" message delivered to another king without modification. What he'd normally do is give it to a messenger and order that messenger to deliver this specific message on this specific piece of paper to the other king and to tell that other king the address of who sent the message. This is exactly what a pointer does, deliver the `memory location` and value of a variable to another. 
+Imagine this scene with me. A king has just written a message and wants that "original" message delivered to another king without modification. What he'd normally do is give it to a messenger and order that messenger to deliver this specific message on this specific piece of paper to the other king and to tell that other king the address of who sent the message. This is exactly what a pointer does, deliver a message content (in this case, this is the value of a variable) and sender location (the memory address of that variable) to another. 
+
 > A pointer in itself is a variable that has a memory address and value, contains the address of the variable pointed to, and allows us to access the original value and modify it as we please.  
 
 ## How to declare and use a pointer
