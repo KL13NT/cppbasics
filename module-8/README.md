@@ -1,5 +1,5 @@
 # Module-8 [WIP]
-> We've seen how we can declare, initialise, use, point, and pass variables around our code. But what if we want to group a some variables together? This is why structs [short for data structures] were made. 
+> We've seen how we can declare, initialise, use, point, and pass variables around our code. But what if we want to group some variables together? This is why structs [short for data structures] were made. 
 
 ## Introduction
 Let's imagine a road. You see a car on that road, and think to yourself. That car has 4 wheels, 5 seats, an engine at the front, a large trunk, and is a 4Wheel-Drive vehicle. All those aspects are `members` of the `struct` car. This is exactly how structs work. 
@@ -205,6 +205,32 @@ for(int i = 0; i < 4; i ++){
   cout << "Book pages: " << Library[i].pages << endl;
   cout << "\n\n";
 }
+
+...
+```
+
+This time you just bought a new computer and you want to send the specs to one of your friends
+```cpp
+...
+
+struct PC{ //defining computer attributes and descriptions
+  string processor;
+  string gpu;
+  string coolingSystem;
+  string driveType;
+  int driveCapacity;
+  int ramInGB;
+};
+
+PC myPC = {"Intel Core i9-9900K", "Nvidia RTX 2080", "Water", "SSD", 250, 32};
+
+cout << "Processor name: " << myPC.processor << endl;
+cout << "Graphics card name: " << myPC.gpu << endl;
+cout << "Cooling system: " << myPC.coolingSystem << endl;
+cout << "Type of drive: " << myPC.driveType << endl;
+cout << "Capacity: " << myPC.driveCapacity << endl;
+cout << "RAM: " << myPC.ramInGB << endl;
+cout << "\n\n";
 
 ...
 ```
