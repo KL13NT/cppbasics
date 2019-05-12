@@ -7,7 +7,7 @@ Learn to build a simple console RPG game while learning the basics of C++!
 > Disclaimer: I'm in no way a C++ professional, I'm just a student just like you and could have made mistakes, tho not big ones I hope. If you see something that needs improvement don't hesitate to mention me on Discord!
 
 # Roadmap
-#### Module-1 
+#### Module-1  
     In this module we introduce you to the most basic building blocks of C++. Data Types. 
 #### Module-2
     Learn the basics of handling variables, what they are and how to use them efficiently. 
