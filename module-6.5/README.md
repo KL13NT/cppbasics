@@ -100,3 +100,5 @@ cout << rand(); //will ouput numbers different every time the program runs
 ...
 ```
 
+#### NOTE
+`rand` doesn't take any parameters when it's called.
