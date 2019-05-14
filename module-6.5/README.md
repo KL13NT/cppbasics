@@ -79,7 +79,7 @@ The way this code will execute is at first, the computer will place the `main` f
 
 ![main function on the call stack](0.jpg)
 
-When it inspects `main` it will find a call to the function `function1` so it pauses `main` and places that function on top of `main` in the call stack.
+When it inspects `main` it will find a call to the function `function1` so it **pauses** `main` and places that function on top of `main` in the call stack.
 
 ![function1 on top of main](1.jpg)
 
