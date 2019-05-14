@@ -62,7 +62,6 @@ cout << normalInteger; //prints 6
 ...
 ```
 ## Intermediate points 
-This is called *passing by reference*.
 ```cpp
 ...
 
