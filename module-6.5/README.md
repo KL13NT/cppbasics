@@ -78,18 +78,31 @@ int main(){
 The way this code will execute is at first, the computer will place the `main` function at the bottom of the stack and then inspect it. 
 ![main function on the call stack](0.jpg)
 When it inspects `main` it will find a call to the function `function1` so it pauses `main` and places that function on top of `main` in the call stack.
+
 ![function1 on top of main](1.jpg)
+
 And then it inspects `function1` only to find out that it has a call to another function `function2` and so it does the same thing, pause `function1`, place `function2` on the stack and then inspect it.
+
 ![function 2 on top of others](2.jpg)
+
 Then it inspects `function2` to find a call to `function3` so it pauses `function2` and places `function3` on top of `function2` in the stack. 
+
 ![function3 on top of others](3.jpg)
+
 Now when it inspects `function3` it will not find any other function calls, so it will start the execution phase. The execution phase runs the functions on the stack from top to bottom, so in reverse order of the inspection phase.
+
 ![function3 continuing](4.jpg)
+
 After `function3` has finished executing it will be removed from the stack and `function2` will be called. 
+
 ![function2 continuing](5.jpg)
+
 After that, it will be removed and `function1` will continue. 
+
 ![function1 continuing](6.jpg)
+
 After that, all function calls will have finished and thus the only function remaining will be `main` which will continue operating normally till its end. 
+
 ![function main continuing](7.jpg)
 
 ## srand and rand
