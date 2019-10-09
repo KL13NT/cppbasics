@@ -28,4 +28,4 @@ Learn to build a simple console RPG game while learning the basics of C++!
  
  
 # Contribute
-Have something in mind that should be added? Found a typo? Explanation not clear? Just send me a message over discord in Valarium or start a pull request! 
+Have something in mind that should be added? Found a typo? Explanation not clear? Just send me a message over discord in [Valarium](https://discord.gg/xrGAnTg) or start a pull request! 
