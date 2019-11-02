@@ -1,10 +1,9 @@
 # C++ Basics
-Learn to build a simple console RPG game while learning the basics of C++! 
-> Provided to you by Nabil Tharwat. Valarium President and Creator.
+Learn to build a simple console application while learning the basics of C++! 
 
-> This tutorial is built mainly for Valarium. I'm going to cover all the way to structs and maybe further if requested, tho no plans of extending are put yet. 
+> This tutorial is built for anyone wanting to learn C++. I'm going to cover all the way to structs and maybe further if requested, tho no plans of extending are put yet. 
 
-> Disclaimer: I'm in no way a C++ professional, I'm a student just like you and could have made mistakes, tho not big ones I hope. If you see something that needs improvement don't hesitate to mention me on Discord!
+> Disclaimer: I'm in no way a C++ professional, I'm a student and could have made mistakes, tho not big ones I hope. If you see something that needs improvement don't hesitate to mention me on Discord or Twitter!
 
 # Roadmap
 #### Module-1  
